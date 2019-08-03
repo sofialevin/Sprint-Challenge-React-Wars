@@ -1,13 +1,13 @@
 import React from "react";
 
-import Card from "./Card";
+import CharCard from "./CharCard";
 
 const CardList = (props) => {
 
   return (
     <div>
       {
-        props.charList.map((character, index) => <Card key={index} characterObj={character}/>)
+        props.charList.map((character, index) => <CharCard key={index} characterObj={character}/>)
       }
     </div>
   );
