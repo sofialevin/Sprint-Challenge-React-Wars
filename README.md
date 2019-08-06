@@ -26,13 +26,27 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library that uses the _virtual DOM_ and components to make it easier to interact with and modify the DOM. Instead of us having to specifically tell the DOM that an element needs to be changed we just tell them virtual DOM which elements and state to render. The virtual DOM then knows when the state changes which elements to update.
+
 - [ ] What does it mean to _think_ in react?
+
+Separation of concerns and declarative programming.
+
+Separations of concerns means that each piece of code has a single responsability/does only one thing. This makes it a lot easier to debug and test our code.
+
+Declarative programming means telling the computer _what_ we want done instead of telling it _how_ we want it done. This makes our code a lot more readable and easier to understand.
 
 - [ ] Describe state.
 
+State is a way to store data in our application. This allows us to keep track of the condition of our application/data at any point.
+
 - [ ] Describe props.
 
+Props are a way to pass information/data from a parent component to a child component.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A "side effect" is anything that affects something outside the scope of the function being executed, say if trys to modify anything outside its scope.
 
 ## Project Set Up
 
